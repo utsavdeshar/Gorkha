@@ -4,17 +4,17 @@
         "displayByDefault": true,
         "defaultSections": true,
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "Visit",
-            "logo": "../images/nhn-logo.png"
+            "logo": "../images/chm-logo.jpg"
         }
     },
     "discharge_summary": {
         "translationKey": "DASHBOARD_TAB_DISCHARGE_SUMMARY_KEY",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "Discharge Summary",
-            "logo": "../images/nhn-logo.png"
+            "logo": "../images/chm-logo.jpg"
         },
         "sections": {
             "patientinformation": {
@@ -111,9 +111,9 @@
     "opdSummary": {
         "title": "OPD Summary",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "OPD Summary",
-            "logo": "../images/nhn-logo.png",
+            "logo": "../images/chm-logo.jpg",
             "showNameAndImage": true
         },
         "sections": {
@@ -203,9 +203,9 @@
     "testSummary": {
         "title": "OPD One Pager",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "OPD One Pager",
-            "logo": "../images/nhn-logo.png",
+            "logo": "../images/chm-logo.jpg",
             "showNameAndImage": true
         },
         "sections": {
