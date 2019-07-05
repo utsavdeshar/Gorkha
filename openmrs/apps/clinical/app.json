@@ -226,6 +226,9 @@
 			"ART, ART ART side effects": {
 				"multiSelect": true
 			},
+			"ANC-High Risk Pregnancy Diagnosis": {
+                                "multiSelect": true
+                        },
 			"CHP Registration, VDC Number": {
 				"required": true
 			},
@@ -250,8 +253,12 @@
 			"CHP ANC, Visit type": {
 				"required": true
 			},
+			"IMAM-Visit type": {
+                                "required": true
+                        },
 			"CHP ANC, Follow up": {
-				"required": false
+				"required": false,
+				"allowFutureDates": true
 			},
 			"CHP ANC, Diagnosis, High Risk Low Touch": {
 				"multiSelect": true,
@@ -1050,68 +1057,79 @@
 			"Asthma, Exacerbations in last 3 months": {
 				"required": true
 			},
-			"Asthma, Asthma, FollowUp": {
-				"required": true
+			"Asthma, FollowUp": {
+				"required": true,
+				"allowFutureDates": true
 			},
 			"COPD, Exacerbations in Last 3 Months": {
 				"required": true
 			},
 			"COPD, FollowUp": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"CHF, Exacerbations in Last 3 Months": {
 				"required": true
 			},
 			"CHF, Followup": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"Diabetes, Urine sugar outcome": {
 				"required": true
 			},
 			"Diabetes, Followup": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"CKD, BP less than 140/90": {
 				"required": true
 			},
 			"CKD, FollowUp": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"RA, Pain exacerbations in the past 3 months": {
 				"required": true
 			},
 			"RA, FollowUp": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"CHD, BP less than 140/90": {
 				"required": true
 			},
 			"CHD, Followup": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"Seizure Disorder, Number of seizures in last 3 months": {
 				"required": true
 			},
 			"Seizure Disorder, FollowUp": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"Tuberculosis, Treatment Outcome": {
 				"required": true
 			},
 			"Tuberculosis, FollowUp": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"HIVTC, CD4 count": {
 				"required": false
 			},
 			"HIVTC, Followup": {
-				"required": true
+				"required": true,
+				"allowFutureDates":true
 			},
 			"Hypertension, Patient at Treatment Goal": {
 				"required": true
 			},
 			"Hypertension, FollowUp": {
-				"required": true
+				"required": true,
+				"allowFutureDates": true
 			},
 			"Acute HEENT Complaint-Other symptoms": {
 				"multiSelect": true
@@ -1802,6 +1820,31 @@
 			},
 			"Delivery Note-Complication Present": {
 				"multiSelect": true
+			},
+			"Rheumatic Heart Disease, FollowUp": {
+				"allowFutureDates": true
+			},
+			"Leprosy, FollowUp": {
+				"allowFutureDates": true
+			},
+			"Snake bite-If yes where" :{
+				"multiSelect": true
+			},
+			"Snake bite-Local symptoms": {
+				"multiSelect": true
+			},
+			"Neurotoxicity": {
+				"multiSelect": true
+			},
+			"Snake bite-Treatment and management": {
+				"multiSelect": true,
+				"required": true
+			},
+			"Snake bite-Bleeding symptoms": {
+				"multiSelect": true
+			},
+			"Snake bite-Fang mark": {
+				"required": true
 			},
 			"defaults": {
 				"Number of living children": 1,
