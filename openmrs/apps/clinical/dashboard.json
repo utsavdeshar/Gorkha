@@ -4,7 +4,7 @@
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
         "printing": {
-            "title": "Nepal EHR",
+            "title": "Chaurmandu PHC",
             "header": "General Summary",
             "logo": "../images/nhn-logo.png"
         },
@@ -61,7 +61,7 @@
                     "title": null,
                     "maximumNoOfVisits": 1
                 },
-                "formGroup": ["Patient Vitals", "Acute OPD visit", "Acute Abdominal Complaint", "Acute HEENT Complaint",
+                "formGroup": ["Patient Vitals","Acute opd visit", "Acute Abdominal Complaint", "Acute HEENT Complaint",
                     "Acute MSK Complaint", "Acute Skin Complaint", "Acute GU Complaint", "ANC", "Asthma, Progress", "Childhood Illness (Children aged below 2 months)",
                     "Childhood Illness( Children aged 2 months to 5 years)", "CHP Antenatal Care", "CHP Chronic Disease Counseling", "CHP Registration",
                     "Chronic Kidney Disease, Progress", "COPD, Progress", "Congestive Heart Failure, Progress", "Death Note", "Delivery note", "Dental", "Dental Note",
@@ -443,7 +443,7 @@
     "hiv": {
         "dashboardName": "HIV",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "HIV Summary",
             "logo": "../images/nhn-logo.png"
         },
@@ -491,7 +491,7 @@
     "motherhood": {
         "dashboardName": "Motherhood",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "Motherhood Summary",
             "logo": "../images/nhn-logo.png"
         },
@@ -528,7 +528,7 @@
     "operationsAndProcedures": {
         "dashboardName": "Operations and Procedures",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "Operations and Procedures Summary",
             "logo": "../images/nhn-logo.png"
         },
@@ -565,7 +565,7 @@
     "imam": {
         "dashboardName": "IMAM",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "IMAM Summary",
             "logo": "../images/nhn-logo.png"
         },
@@ -602,7 +602,7 @@
     "communityHealth": {
         "dashboardName": "Community Health",
         "printing": {
-            "title": "NepalEHR",
+            "title": "Chaurmandu PHC",
             "header": "Community Health Summary",
             "logo": "../images/nhn-logo.png"
         },
