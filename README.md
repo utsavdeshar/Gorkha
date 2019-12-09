@@ -30,7 +30,7 @@ https://ci-bahmni.thoughtworks.com/go/files/Bahmni_MRS_Master/{Build_Number}/Bui
 
 
 
-#### Configurations 
+#Configurations 
  
  1) Clinical app.json: example -  (Details in comments)
 
