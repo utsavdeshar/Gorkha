@@ -247,6 +247,9 @@
 			"CHP ANC, Visit date": {
 				"required": true
 			},
+			"Covid-Symptoms": {
+				"required": true
+			},
 			"CHP ANC, Visit type": {
 				"required": true
 			},
