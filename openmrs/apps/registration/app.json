@@ -83,23 +83,29 @@
                 "errorMessage": "Should contain only numbers"
             }
         },
-        "patientSearch": {
-            "address": {
-                "label": "VDC/Municipality",
-                "placeholder": "Enter VDC/Municipality",
-                "field": "city_village"
-        },
-	
-	"customAttributes": {
-    	"label": "Advance Search",
-   	 "placeholder": "Household ID/Phone No",
-    	"fields": ["HouseHoldID", "Telephone Number"]
-  	},
-
-  	"searchByPatientIdentifier": true
+        
+	"patientSearch": {
+	"address": {
+	"label": "Municipality/VDC",
+		        "placeholder": "VDC/Municipality/Ward",
+		        "field":["city_village","address1"]
+	      },
+	  "customAttributes": {
+	    "label": "Advance Search",
+	    "placeholder": "Household ID/Phone No",
+	    "fields": ["HouseHoldID", "Contact Number"]
+	  },
+	"searchByPatientIdentifier":true
 	},
-
-        "enableNepaliCalendar": true,
-        "displayNepaliDates": true
-    }
+	 "patientSearchResults": {
+		"personAttributes":{
+		        "fields": [ "HouseHoldID","Contact Number" ]
+		},
+		    "address": {
+		        "fields": ["city_village", "address1"]
+		    }
+		},
+		"enableNepaliCalendar": true,
+		"displayNepaliDates": true
+	    }
 }
