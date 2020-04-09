@@ -235,6 +235,12 @@
 			"CHP Registration, Ward Number": {
 				"required": true
 			},
+			"USG, Cleaned before use?": {
+				"required": true
+			},
+			"ANC-USG Placenta Position": {
+				"required": true
+			},
 			"CHP Registration, House Number": {
 				"required": true
 			},
