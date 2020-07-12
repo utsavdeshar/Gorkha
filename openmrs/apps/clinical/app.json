@@ -166,6 +166,18 @@
 			"Hypertension - Risk factors": {
 				"multiSelect": true
 			},
+			"Covid-Symptoms": {
+				"required": true,
+				"multiSelect": true
+			},
+			"Covid-Additional risk factor": {
+				"required": true,
+				"multiSelect": true
+			},
+			"Covid-Sample collected": {
+				"required": true
+						
+			},
 			"HTC, Risk Group": {
 				"multiSelect": true
 			},
@@ -235,6 +247,9 @@
 			"CHP Registration, Ward Number": {
 				"required": true
 			},
+			"Covid-Visit type":{
+				"required": true
+			},
 			"CHP Registration, House Number": {
 				"required": true
 			},
@@ -247,6 +262,13 @@
 			"ANC, Diagnosis, If other, specify": {
 				"conciseText": true
 			},
+			"USG, Cleaned before use?": {
+				"required": true
+			},
+
+			"ANC-USG Placenta Position": {
+				"required": true
+			},
 			"CHP ANC, Visit date": {
 				"required": true
 			},
@@ -256,6 +278,12 @@
 			"IMAM-Visit type": {
                                 "required": true
                         },
+			"Covid-Travel history": {
+				"required": true
+			},
+			"Covid-Local exposure": {
+				"required": true
+			},
 			"CHP ANC, Follow up": {
 				"required": false,
 				"allowFutureDates": true
