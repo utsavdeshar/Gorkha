@@ -25,7 +25,7 @@
             "Diabetes-Counseling",
             "Discharge Note",
             "DR TB Intake note",
-            "ECG Notes", 
+            "ECG Note", 
             "ER General Notes",
             "HIV Testing and Counseling (HTC)",
             "HIV Treatment and Care Intake Template",
@@ -53,6 +53,7 @@
             "Sextually Transmitted Infections Intake Template",
             "Sexually Transmitted Infections",
             "Stroke OPD",
+	    "Surgical follow up note",	 
             "Trauma Notes",
             "Tuberculosis, Intake Note",
             "Tuberculosis Follow up note",
@@ -65,7 +66,9 @@
 	    "Osteoarthritis QI note",
 	    "Leprosy note",
 	    "Kalazar note",
-	    "Animal bite note"
+	    "Animal bite note",
+	    "Snake bite note",
+            "COVID-19 Screening"
         ],
         "male": [],
         "female": [
@@ -79,7 +82,9 @@
             "Reproductive Health-Note",
             "Safe Abortion",
 	    "Safe abortion QI note",
-	    "Antenatal checkup(ANC) note"
+	    "Antenatal checkup(ANC) note",
+	    "Safe abortion (SA) note",
+	    "Safe abortion"
         ],
         "lessThanTwoMonths":[
             "CBIMNCI (<2 months child)",
@@ -94,7 +99,8 @@
             "Nutrition",
             "MAM-SAM Counseling Note",
 	    "IMAM note",
-	    "Vaccine note"
+	    "Vaccine note",
+	    "IMAM Program"
         ]
     }
 

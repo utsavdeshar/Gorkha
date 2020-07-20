@@ -45,7 +45,7 @@
                 }
             },
         "mandatoryPersonAttributes": [
-            "Caste","NHIS Number"
+            "Caste"
         ],
         "autoCompleteFields": [
             "familyName"
@@ -57,6 +57,7 @@
         }],
         "showMiddleName": true,
         "showLastName": true,
+	"isLastNameMandatory": true,
 	"patientNameDisplayOrder": ["firstName", "middleName", "lastName"],
         "defaultVisitType": "General",
         "conceptSetUI": {
