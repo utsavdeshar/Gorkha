@@ -1302,6 +1302,20 @@
 			}]
 		}
 	},
+	"EDCD EWARS Report": {
+		"name": "EDCD EWARS Report",
+		"DHISProgram": true,
+		"type": "concatenated",
+		"config": {
+			"reports": [{
+				"name": "EDCD EWARS Report",
+				"type": "MRSGeneric",
+				"config": {
+					"sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/EDCD-Ewars/EDCD-Ewars-Report.sql"
+				}
+			}]
+		}
+	},
 
 	"Anesthesia_number_of_clients_served": {
 		"name": "Anesthesia Number of Clients Served",
