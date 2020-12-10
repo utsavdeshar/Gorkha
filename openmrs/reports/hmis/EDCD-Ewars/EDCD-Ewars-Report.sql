@@ -1,6 +1,3 @@
-SET @dt1 = date('#startDate#');
-SET @dt2 = date('#endDate#'); -- end of previous week
-
 SELECT distinct
 pi.identifier AS 'IP',
 CONCAT_WS(' ', pn.given_name, pn.middle_name, pn.family_name) as 'Name',
@@ -37,7 +34,7 @@ and o.concept_id = '15' AND o.value_coded in ('5501', '5505', '4863', '5499', '4
 -- CBIMNCI
 -- and o.concept_id = '15' AND o.value_coded in ('3542','3537', '3530', '3538', '3539', '3540', '3541','3507') and o.value_coded in ('5522')
 where p.voided = '0'
-and date(o.obs_datetime) between @dt1 and @dt2
+and date(o.obs_datetime) between date('#startDate#') and date('#endDate#')
 -- and pa.city_village in ('Bhimeshwar Municipality','Bocha','Babare','Susmachhemawati','Sunakhani','Lapilang','Katakuti', 'Alampu', 'Phasku','Bhirkot','Bhusaphedi', 'Bigu','Bulung', 'Chankhu','Chhetrapa', 'Chilankha','Chyama','Dandakharka','Gaurisankar','Gairimudi', 'Ghangsukathokar', 'Hawa', 'Japhe', 'Jhule', 'Jhyaku','Jiri', 'Jugu', 'Kabhre', 'Kalingchok', 'Katakuti', 'Khare', 'Khopachagu', 'Laduk', 'Lakuridada', 'Lamabagar', 'Lamidada', 'Lapilang', 'Magapauwa', 'Mali', 'Malu', 'Marbu', 'Melung', 'Mirge', 'Namdu', 'Orang', 'Pawati', 'Sahare', 'Sailungeswor', 'Sundrawati', 'Sunakhani', 'Syama', 'Dudhpokhari', 'Thulopatal', 'Rasanalu', 'Dadhuwa', 'Thulopakhar', 'Thulodhading' )
 group by IP, Name, age, gender, VDC, Ward, District, Diag
 ORDER BY date_diagnosed ASC;
