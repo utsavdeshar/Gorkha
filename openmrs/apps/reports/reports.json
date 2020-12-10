@@ -1302,18 +1302,12 @@
 			}]
 		}
 	},
+	
 	"EDCD EWARS Report": {
 		"name": "EDCD EWARS Report",
-		"DHISProgram": true,
-		"type": "concatenated",
+		"type": "MRSGeneric",
 		"config": {
-			"reports": [{
-				"name": "EDCD EWARS Report",
-				"type": "MRSGeneric",
-				"config": {
-					"sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/EDCD-Ewars/EDCD-Ewars-Report.sql"
-				}
-			}]
+			"sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/EDCD-Ewars/EDCD-Ewars-Report.sql"
 		}
 	},
 
