@@ -1262,6 +1262,13 @@
 					}
 				},
 				{
+					"name": "Summary of Indoor Services Brought Death and Postmortem",
+					"type": "MRSGeneric",
+					"config": {
+						"sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/17-2-Hospital_Indoor_Services_Dataset/brought_death_postmortem.sql"
+					}
+				},
+				{
 					"name": "Summary of Indoor Services Hospital Summary Plaster",
 					"type": "MRSGeneric",
 					"config": {

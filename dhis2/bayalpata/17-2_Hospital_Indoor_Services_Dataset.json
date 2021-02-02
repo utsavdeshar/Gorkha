@@ -1317,6 +1317,37 @@
 
 			]
 		},
+		"Summary of Indoor Services Brought Death and Postmortem": {
+			"dataValues": [{
+					"_comment": "Brought Dead Female",
+					"categoryOptionCombo": "ye1QuAMRG5Z",
+					"dataElement": "w9XVaxfPr9F",
+					"row": 1,
+					"column": 3
+				},
+				{
+					 "_comment": "Brought Dead Male",
+					"categoryOptionCombo": "PflKpozpO7b",
+					"dataElement": "w9XVaxfPr9F",
+					"row": 2,
+					"column": 3
+				},
+				{
+					"_comment": "Postmortem Done Female",
+					"categoryOptionCombo": "ye1QuAMRG5Z",
+					"dataElement": "kkl8yhz37BN",
+					"row": 3,
+					"column": 3
+				},
+				{
+					"_comment": "Postmortem Done Male",
+					"categoryOptionCombo": "PflKpozpO7b",
+					"dataElement": "kkl8yhz37BN",
+					"row": 4,
+					"column": 3
+				}
+			]
+		},
 		"FreeHealthServices ER": {
 			"dataValues": [{
 					"categoryOptionCombo": "kdsirVNKdhm",
