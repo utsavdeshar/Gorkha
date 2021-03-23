@@ -1,7 +1,7 @@
 {
   "orgUnit": "<Your organization id>",
   "reports": {
-    "Hospital Services - Total Client Served": {
+    "Hospital Services - OPD clients served": {
       "dataValues": [    						 
         {
           "categoryOptionCombo": "I1gylzOskBs",
