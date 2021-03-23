@@ -247,6 +247,10 @@
 			"CHP Registration, Ward Number": {
 				"required": true
 			},
+			"USG, Cleaned before use?": {
+				"required": true
+			},
+			"ANC-USG Placenta Position": {
 			"Covid-Visit type":{
 				"required": true
 			},
